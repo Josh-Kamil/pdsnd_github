@@ -1,13 +1,18 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+## US Bikeshare Analysis
 
-### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
+#### Creation Date and Updates
+This project was created on 20th January 2024 with minor updates on February 3rd 2024.
 
 ### Description
-Describe what your project is about and what it does
+This project is a simple python script that, when run, allows the user to examine snippets of fictitious bikeshare data for the following US cities for the years 2015-2022:
+
+* Chicago
+* New York City
+* Washington
+
+The script imports .csv data for the above cities and filters it by day, month and rideshare customer characteristics.
+
+The user is promted by questions including if they wish to view raw data.
 
 ### Files used
 Include the files used
