@@ -140,7 +140,7 @@ def station_stats(df):
     print("This is the starting station with most departures in {}:".format(city.title()))
     print()
     print(frequent_start_station.nlargest(1))
-    
+
     print()
     print("This is the end station with most arrivals in {}:".format(city.title()))
     print()
@@ -150,8 +150,7 @@ def station_stats(df):
     print("This is the most common start and end stations combinations in {}:".format(city.title()))
     print()
     print(frequent_start_end_station.nlargest(1))
-    
-    
+  
     print()
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
