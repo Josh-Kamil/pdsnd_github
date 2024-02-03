@@ -7,6 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+#filters raw data based on selection of city, month and day
 def get_filters():
     global city, month, day
     """
