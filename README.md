@@ -14,9 +14,16 @@ The script imports .csv data for the above cities and filters it by day, month a
 
 The user is promted by questions including if they wish to view raw data.
 
-### Files used
-Include the files used
+### Input Data and Python Dependencies 
+The script is based on the following .csv files - shown with corresponding city:
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+| City | Data |
+|-----:|-----------|
+|     Chicago| chicago.csv|
+|     New York City| new_york_city.csv    |
+|     Washington| washington.csv       |
 
+The python script uses three libraries: `pandas`, `time` and `numpy`.
+
+#### Credits
+Thank you Udacity for this useful course!
